@@ -31599,6 +31599,21 @@
           "btType": {
             "type": "string"
           },
+          "normal": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "origin": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "radius": {
+            "type": "number"
+          },
           "type": {
             "type": "string",
             "enum": [
