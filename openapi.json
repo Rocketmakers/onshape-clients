@@ -19290,6 +19290,13 @@
             "type": "number",
             "format": "double"
           },
+          "arcSweep": {
+            "type": "number",
+            "format": "double"
+          },
+          "arcIsCW": {
+            "type": "boolean"
+          },
           "midPoint": {
             "$ref": "#/components/schemas/BTVector3d-389"
           },
