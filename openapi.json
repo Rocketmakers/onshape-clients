@@ -16518,6 +16518,21 @@
       "BTCurveDescription-1583": {
         "type": "object",
         "properties": {
+          "origin": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "normal": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "radius": {
+            "type": "number"
+          },
           "btType": {
             "type": "string"
           },
